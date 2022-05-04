@@ -2,7 +2,7 @@ function carregar(){
     let msg=window.document.getElementById('test')
     let photo =window.document.getElementById('fotoedit')
     let hours=new Date()
-    let horas=17//hours.getHours()
+    let horas=hours.getHours()
     let minutes=hours.getMinutes()
     msg.innerHTML=`Agora são ${horas} horas`
 
