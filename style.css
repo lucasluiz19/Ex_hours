@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(48, 68, 156);
+    font:normal 16pt Arial;
+}
+#conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 1.8rem;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px 15px rgba(20, 20, 20, 0.507);
+
+}
+#tittle{
+    color: white;
+}
+#paragraph{
+    font-style: italic;
+    color: white;
+}
+#foto{
+    margin: 25px 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+#fotoedit{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: none;
+}
